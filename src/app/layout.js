@@ -14,7 +14,10 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <nav class="bg-white border-gray-200 dark:bg-gray-900">
           <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-            <a href="http://localhost:3000/" class="flex items-center">
+            <a
+              href="https://main.de96rnq8469w4.amplifyapp.com/"
+              class="flex items-center"
+            >
               <img
                 src="https://user-images.githubusercontent.com/709451/182802334-d9c42afe-f35d-4a7b-86ea-9985f73f20c3.png"
                 class="h-8 mr-3"
@@ -61,7 +64,7 @@ export default function RootLayout({ children }) {
                 </li>
                 <li>
                   <a
-                    href="http://localhost:3000/posts"
+                    href="https://main.de96rnq8469w4.amplifyapp.com/posts"
                     class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                   >
                     Posts
@@ -69,7 +72,7 @@ export default function RootLayout({ children }) {
                 </li>
                 <li>
                   <a
-                    href="http://localhost:3000/posts#settings"
+                    href="https://main.de96rnq8469w4.amplifyapp.com/posts#settings"
                     class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                   >
                     Post Settings
@@ -77,18 +80,10 @@ export default function RootLayout({ children }) {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="https://main.de96rnq8469w4.amplifyapp.com/pokemon"
                     class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                   >
-                    Pricing
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                  >
-                    Contact
+                    Pokemon
                   </a>
                 </li>
               </ul>

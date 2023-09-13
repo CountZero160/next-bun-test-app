@@ -4,9 +4,13 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
         <p>This is the home page</p>
-        <Link href="/posts">Posts Link</Link>
+        <Link href="https://main.de96rnq8469w4.amplifyapp.com/posts">
+          Posts Link
+        </Link>
 
-        <Link href="/posts#settings">Settings</Link>
+        <Link href="https://main.de96rnq8469w4.amplifyapp.com/posts#settings">
+          Settings
+        </Link>
       </div>
     </main>
   );

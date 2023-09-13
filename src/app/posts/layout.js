@@ -377,7 +377,7 @@ export default function DashboardLayout({
         </p>
         <div id="settings">
           <h1>Settings</h1>
-          <a href="/posts">
+          <a href="https://main.de96rnq8469w4.amplifyapp.com/posts">
             <button>Top</button>
           </a>
 
