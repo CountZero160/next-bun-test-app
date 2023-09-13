@@ -9,7 +9,7 @@ export default function PokemonDetails({ name }) {
   useEffect(() => {
     async function fetchData() {
       const pokemonResponse = await fetch(
-        `https://pokeapi.co/api/v2/pokemon/${name}`
+        `https://pokeapi.co/api/v2/pokemon/mew`
       );
       const pokemonData = await pokemonResponse.json();
       setPokemonData(pokemonData);
