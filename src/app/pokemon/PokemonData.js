@@ -1,12 +1,13 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
+import Link from "next/link";
 
 function PokemonCard({ pokemon }) {
   return (
     <div
       id="card"
-      class="flex flex-col items-center justify-center text-center w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700"
+      class="flex flex-col items-center justify-center text-center w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700 hover:bg-sky-800"
     >
       <img src={pokemon.image} alt={pokemon.name} />
       <h2>{pokemon.name}</h2>
@@ -40,8 +41,12 @@ export default function PokemonData() {
       id="pokemonlist"
       class="grid gap-2 p-2 mb-8 border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 md:mb-12 md:grid-cols-4"
     >
+      {console.log(pokemonData)}
       {pokemonData.map((pokemon) => (
-        <PokemonCard key={pokemon.name} pokemon={pokemon} />
+        <Link key={pokemon.name} href={`/pokemon/details/${pokemon.name}`}>
+          {console.log(pokemon)}
+          <PokemonCard key={pokemon.name} pokemon={pokemon} />
+        </Link>
       ))}
     </div>
   );
